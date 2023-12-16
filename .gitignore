@@ -1,4 +1,18 @@
-# Ignored files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+builNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+#Eclipse Core
+.project
+
+# JDT-specific 
+.classpath
 
 # Ignored directories
 /ParsedFiles/
