@@ -12,7 +12,7 @@ public class HtmlParser {
     private File[] htmlFiles;
     private String outputFolder;
 	public static final String outputFolderName = "ParsedFiles";
-	public static final String gymUrls = "F:\\@ MAC\\ACC\\ACC_Project\\FitFinder\\src\\main\\java\\Files\\GymContentUrls.txt";
+	public static final String gymUrls = "src\\main\\java\\Files\\GymContentUrls.txt";
 	private Utilities utl;
 	private WebCrawler webCrawler = new WebCrawler();
     
