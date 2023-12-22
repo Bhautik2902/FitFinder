@@ -25,7 +25,6 @@ class TrieCNC {
 public class SpellChecker {
 
     private String filePath;
-    private ArrayList<String> cityList;
     //protected File cities;
     private final int maxEditDistance = 2;
     public static TrieNode root = new TrieNode();
@@ -33,9 +32,6 @@ public class SpellChecker {
     
     public SpellChecker(String filePath) {
     	this.filePath = filePath;
-		//cities = new File(filePath);
-		cityList = new ArrayList<String>();
-		
 		// reading values from the cities.txt file
 		readCityFile();
 	}

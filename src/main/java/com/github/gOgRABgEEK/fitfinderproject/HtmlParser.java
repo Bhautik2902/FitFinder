@@ -9,19 +9,11 @@ import java.util.List;
 
 public class HtmlParser {
 
-    private File[] htmlFiles;
-    private String outputFolder;
 	public static final String outputFolderName = "ParsedFiles";
 	public static final String gymUrls = "src\\main\\java\\Files\\GymContentUrls.txt";
 	private Utilities utl;
 	private WebCrawler webCrawler = new WebCrawler();
-    
-    public HtmlParser(File[] htmlFiles, String opFolderPath) {
-    	this.htmlFiles = htmlFiles;
-    	this.outputFolder = opFolderPath;
-    	utl = new Utilities();
-    }
-    
+   
     public HtmlParser() {
     	utl = new Utilities();
     }
