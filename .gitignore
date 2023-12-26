@@ -17,3 +17,5 @@ builNumber.properties
 # Ignored directories
 /ParsedFiles/
 /target/
+ftoutput.csv
+GLoutput.csv
